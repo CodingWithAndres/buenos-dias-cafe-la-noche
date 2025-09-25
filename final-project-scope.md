@@ -4,7 +4,7 @@
 Buenos Dias Cafe x La Noche Website
 
 ## Project Purpose
-To create a professional two-page website prototype for Buenos Dias Cafe x La Noche, a new family-owned restaurant. The project will showcase the restaurant’s unique concept, combining breakfast and café culture (Buenos Dias) w/ evening dining and nightlife (La Noche). The website will provide visitors with essential information and highlight the restaurant’s brand identity.
+To create a professional two-page website prototype for Buenos Dias Cafe x La Noche, a new family-owned restaurant. The project will showcase the restaurant’s unique concept, combining breakfast and café culture (Buenos Dias) with evening dining and nightlife (La Noche). The website will provide visitors with essential information and highlight the restaurant’s brand identity.
 
 ## Description
 This project will deliver a two-page prototype website.  
