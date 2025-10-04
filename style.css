@@ -20,4 +20,19 @@
     color: #fff;
     transition: background 0.3s ease, color 0.3s ease;
   }
+
+  /* --- image size fix --- */
+.hero-media img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  /* make sure no page scrolling happens horizontally */
+  body {
+    overflow-x: hidden;
+  }
+  
   
