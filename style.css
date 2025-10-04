@@ -1,0 +1,23 @@
+.logo {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
+  
+  /* --- Map and Directions Styling --- */
+  .map-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .map-container:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  }
+  .btn:hover {
+    background: #b48a64;
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
