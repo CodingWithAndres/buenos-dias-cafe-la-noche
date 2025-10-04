@@ -1,30 +1,44 @@
-# Buenos Dias Cafe x La Noche
+# ☕ Buenos Días Café x La Noche 🌙  
+*A project proposal and prototype website for a family-owned restaurant that blends the warmth of a traditional café with the energy of an evening lounge.*
 
 ---
 
-A project proposal and prototype website for **Buenos Dias Cafe x La Noche**, a family-owned restaurant that blends the warmth of a traditional café with the energy of an evening lounge.  
-
 ## 🌟 Project Purpose  
 This repository was created as part of **CMPA 3301 – Project 03: Full Project Proposal**.  
-It contains project planning documentation and a two-page website prototype for the restaurant.  
+It contains all planning documentation and a two-page website prototype for the restaurant **Buenos Días Café x La Noche**.  
 
-The goal is to:  
+### Goals  
 - Define the scope and vision for the restaurant’s digital presence.  
 - Provide a prototype website with core information about the brand.  
-- Demonstrate how a modern, accessible website can support outreach.  
+- Demonstrate how a modern, accessible website can support outreach and customer engagement.  
+
+---
 
 ## 📂 Repository Contents  
-- `final-project-scope.md` – Official scope statement for the project.  
-- `index.html` – Homepage prototype for Buenos Dias Cafe x La Noche.  
-- `about.html` – Secondary page prototype (ex: About/Contact).  
-- `style.css` – Styling for the prototype.  
-- Additional planning documents as required by the project.  
+| File | Description |
+|------|--------------|
+| `docs/scope.md` | Official Project Scope Statement |
+| `docs/plan.md` | Project Plan with Risk Analysis (TAME) and WBS |
+| `docs/retrospective.md` | Reflection on project process |
+| `index.html` | Homepage prototype for Buenos Días Café x La Noche |
+| `about.html` | Secondary page prototype (About / Contact) |
+| `style.css` | Shared styling for both pages |
+
+---
 
 ## 🔗 Live Website  
-👉 [https://codingwithandres.github.io/buenos-dias-cafe-la-noche/](https://codingwithandres.github.io/buenos-dias-cafe-la-noche/)  
+👉 [Visit the Live Prototype](https://codingwithandres.github.io/buenos-dias-cafe-la-noche/)  
+
+---
 
 ## ✨ Vision  
-Buenos Dias Cafe x La Noche isn’t just a place to eat or drink — it’s a cultural experience. The website aims to highlight:  
-- Morning café menu and vibe ☕  
-- Evening lounge atmosphere 🌙  
-- Events, specials, and updates 📅
+**Buenos Días Café x La Noche** isn’t just a place to eat or drink — it’s a cultural experience.  
+The website highlights:  
+- ☀️ **Morning café menu and vibe**  
+- 🌙 **Evening lounge atmosphere**  
+- 📅 **Events, specials, and community updates**
+
+---
+
+*Created by **Andres Solis**  
+for CMPA 3301 – Project 03: Final Project Proposal.*
