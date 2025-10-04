@@ -17,9 +17,9 @@ It contains all planning documentation and a two-page website prototype for the 
 ## 📂 Repository Contents  
 | File | Description |
 |------|--------------|
-| `scope.md` | Official Project Scope Statement |
-| `plan.md` | Project Plan with Risk Analysis (TAME) and WBS |
-| `retrospective.md` | Reflection on project process |
+| `docs/scope.md` | Official Project Scope Statement |
+| `docs/plan.md` | Project Plan with Risk Analysis (TAME) and WBS |
+| `docs/retrospective.md` | Reflection on project process |
 | `index.html` | Homepage prototype for Buenos Días Café x La Noche |
 | `about.html` | Secondary page prototype (About / Contact) |
 | `style.css` | Shared styling for both pages |
