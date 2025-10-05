@@ -97,3 +97,12 @@
     img, .feature-img, .split-img { opacity: 0.95; }
   }
   
+ /* taller hero image: less crop */
+.hero-media img {
+    height: clamp(280px, 80vh, 500px); /* was ~220/38vh/420 */
+    object-fit: cover;
+  }
+  @media (max-width: 600px) {
+    .hero-media img { height: clamp(220px, 45vh, 480px); }
+  }
+  
