@@ -17,7 +17,7 @@
   }
   .btn:hover {
     background: #b48a64;
-    color: #fff;
+    color: #9d9881;
     transition: background 0.3s ease, color 0.3s ease;
   }
 
@@ -33,6 +33,91 @@
   /* make sure no page scrolling happens horizontally */
   body {
     overflow-x: hidden;
+  }
+  
+  /* --- modern background --- */
+body {
+    background:
+      linear-gradient(180deg, #d8bba0 0%, #926548 4efe8 100%);
+    overflow-x: hidden; /* safety */
+  }
+  
+  /* grain overlay */
+  body::before {
+    content: "";
+    position: fixed; inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(1px 1px at 25% 20%, rgba(0,0,0,.03) 0 1px, transparent 2px),
+      radial-gradient(1px 1px at 75% 60%, rgba(0,0,0,.02) 0 1px, transparent 2px);
+    background-size: 200px 200px, 260px 260px;
+    mix-blend-mode: multiply;
+    opacity: .6;
+    z-index: -1;
+  }
+  
+  /* glassy cards */
+  .card {
+    background: #ffffffcc;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  
+  /* hero image readability: overlay */
+  .hero { position: relative; }
+  .hero::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0));
+    pointer-events: none;
+  }
+
+  /* --- Auto Dark Mode (for users who prefer dark scheme) --- */
+@media (prefers-color-scheme: dark) {
+    body {
+      background: linear-gradient(180deg, #1e1c1b 0%, #2b2927 100%);
+      color: #f3f0ec;
+    }
+  
+    .site-header, .site-footer {
+      background: rgba(36, 34, 33, 0.9);
+      color: #f3f0ec;
+    }
+  
+    .card {
+      background: rgba(40, 38, 36, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      color: #f3f0ec;
+    }
+  
+    .btn {
+      background: #c48f5a;
+      color: #1b1a1a;
+    }
+    .btn:hover {
+      background: #b37b47;
+      color: #fff;
+    }
+  
+    .section-title {
+      color: #d5bfa5;
+    }
+  
+    .note, .buenos-note, .noche-note {
+      color: #d9c6a6;
+    }
+  
+    a {
+      color: #e1b47a;
+    }
+    a:hover {
+      color: #f6d1a0;
+    }
+  
+    img, .feature-img, .split-img {
+      opacity: 0.95;
+    }
   }
   
   
